@@ -1,0 +1,497 @@
+body{
+    font-family:FranklinGothic-Medium, Bahnschrift, calibri, Arial, sans-serif;
+}
+nav{
+    width: 100%;
+    height: 60px;
+    background: #344051;
+    font-family: FranklinGothic-Medium;
+}
+
+h2{
+    font-family: FranklinGothic-Medium;
+}
+hr{
+    width: 80px;
+    height: 4px;
+    border: none;
+    background: #dc8756;
+    margin-bottom: 50px;
+    opacity:1;
+}
+@media (max-width:991px){
+    nav .container{
+        margin-left: 0;
+    }
+    .MAIN .title__container h1,.MAIN .title__container h4{
+        color: #000;
+    }
+    .Obo_mne .Obo_mne_cont H4{
+        margin-top:30px;
+    }
+    .keis .container h4{
+        margin-left: 0;
+    }
+    .keis .sait_visit_prev h2, .keis .sait_visit_prev button{
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+}
+.logo{
+    color: #fff;
+    font-size: 17px;
+    line-height: 60px;
+    padding-left:40%;
+}
+.menu{
+    float: left;
+}
+.menu li{
+    float: left;
+    line-height: 60px;
+    margin-right: 40px;
+    font-size: 14px;
+	text-decoration: uppercace;
+}
+.menu a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.MAIN{
+    font-family:FranklinGothic-Medium;
+    width: 100%;
+    height: 900px;
+    background:url(../img/ten.png) no-repeat 80% 105%/auto 10%, url(../img/boy.png) no-repeat 90% 100%/auto 85%, url(../img/bg.jpg) center/cover no-repeat ;
+}
+.title__container{
+	text-align: center;
+    
+}
+.title__container h1{
+	font-size: 60px;
+    color: #2c384a;
+    font-weight:bold;
+}
+.MAIN H4{
+    font-family: calibri;
+	margin-top: 30px;
+	font-size: 15px;
+	color: #79818d;
+}
+.MAIN input{
+    font-family:FranklinGothic-Medium;
+	width: 95px;
+	height: 30px;
+	margin: 30px 20px 0 20px;
+	font-size: 15px;
+	border: 1px solid #79818d;
+	border-radius: 5px;
+	color: #79818d;
+	text-align: center;
+}
+.Obo_mne{
+	width: 100%;
+	height: 610px;
+	margin-top: 70px;
+}
+
+.Obo_mne h2{
+	font-size: 25px;
+	color: #263244;
+	margin-bottom: 20px;
+    font-weight:700;
+}
+.Obo_mne hr{
+	opacity: 1;
+	display: block;
+	margin: 0 auto;
+	border: none;
+}
+.Obo_mne_cont H4{
+    font-family: Calibri;
+    display: block;
+    text-align: left;
+	margin-top: 50px;
+	font-size: 15px;
+}
+.Obo_mne img{
+    margin-top: 40px;
+}
+.Obo_mne button{
+	border: 1px solid;
+	border-radius: 5px;
+	color: #525a68;
+	font-size: 13px;
+	margin:50px auto 0 auto;
+}
+.Obo_mne button img{
+	margin: 5px;
+}
+.Obo_mne button p{
+	float:right;
+	margin: 5px;
+    font-family:FranklinGothic-Medium;
+}
+
+.my_skill{
+    height: 520px;	
+    text-align: center;
+    background-image:url(../img/fone.png);
+}
+.my_skill h2{
+    font-size: 25px;
+    color: #263244;
+    font-weight:700;
+    padding: 60px 0 20px 0; 
+}
+.my_skill hr{
+	opacity: 1;
+	display: block;
+	margin: 0 auto;
+    border: none;
+}
+.my_skill h4{
+    font-family: Bahnschrift;
+    font-size: 15px;
+    font-weight:600;
+}
+.my_skill h5{
+    font-family: calibri;
+    font-size: 13px;
+    text-align: center;
+}
+.dizain h4{
+    color: #d48d2f;
+    margin: 40px 0 20px 0;
+}
+.razrab h4{
+    color: #d48d2f;
+    margin: 40px 0 20px 0;
+}
+.seo_opt h4{
+    color: #d48d2f;
+    margin: 40px 0 20px 0;
+    }
+.marketing h4{
+    color: #d48d2f;
+    margin: 40px 0 20px 0;
+}
+
+.keis{
+    height: 1150px;
+    text-align: center;
+    margin: 0 auto;
+}
+.keis hr{
+	opacity: 1;
+	display: block;
+	margin: 5px auto;
+    border: none;
+}
+.keis H2{
+    font-size: 25px;
+    color: #263244;
+    font-weight:700;
+    margin: 100px 0 20px 0;
+    text-align: center;
+   
+}
+.keis h4{
+    font-family: calibri;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    margin-left: 80px;
+    color: rgb(63, 73, 90);
+    font-size: 14px;
+}
+.keis img{
+    width: 90%;
+}
+.sait_visit_prev h2{
+    font-size: 19px;
+    color: rgb(56, 67, 84);
+    text-align: left;
+    margin-left: 80px;
+}
+.sait_visit_prev h4{
+    font-family: calibri;
+    font-size: 13px;
+    color: rgb(63, 73, 90);
+    text-align: left;
+    margin: 20px 0 20px 80px;
+}
+.sait_visit_prev button{
+    width: 200px;
+    height: 45px;
+    margin-left: 50px;
+    background-color: aqua;
+    color:#fff;
+    border-radius: 5px;
+}
+.web{
+    margin-top: -90px;
+}
+.NAME_P{
+    float: left;
+}
+.NAME_P H2{
+    font-size: 19px;
+    color: rgb(56, 67, 84);
+    line-height: 0.833;
+    text-align: left;
+    margin-left: 5px;
+}
+.NAME_P p{
+    font-family: calibri;
+    font-size: 16px;
+    text-align: left;
+   
+}
+
+.calc{
+	height: 800px;
+    box-shadow: 0 0 10px;
+    margin:5% 10%;
+}
+.calc h2{
+	text-align: center;
+	font-size:35px;
+    color: #263244;
+    font-weight:700;
+    margin: 40px auto 20px auto;
+}
+.calc p{
+    font-family:FranklinGothic-Medium;
+	margin: 40px 0 20px 0;
+	font-size: 22px;
+	font-weight: 800;
+	color: #263244;
+	
+}
+.calc p select{
+	width: 100%;
+	margin-top: 10px;
+	height: 40px;
+    font-size: 13px;
+    font-family:FranklinGothic-Medium;
+}
+.calc hr{
+    height: 1px;
+    background: #d1d1d1;
+    width: 100%;
+}
+.itog P{
+    float:right;
+}
+.calc bUtton{
+    width: 200px;
+    height: 45px;
+    background-color: aqua;
+    color:#fff;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.stat{
+    height: 500px;
+    background-image: url(../img/fon.png);
+}
+.stat hr{
+    opacity: 1;
+	display: block;
+	margin: 5px auto;
+    border: none;
+    width: 80px;
+    margin-bottom: 70px;
+}
+.stat h2{
+    font-size: 25px;
+    color: #293b4f;
+    font-weight:700;
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom: 21px;
+}
+.stat img{
+    margin-left: 85px;
+}
+.stat h4{
+    font-size: 30px;
+    color: #263244;
+    text-align: center;
+    padding:30px 0 20px 0;
+}
+.stat h5{
+    font-size: 13px;
+    color: #263244;
+    text-align: center;
+}
+.happy{ 
+    width: 220px;
+    float: left;
+}
+.time, .end, .medal{
+    width: 220px;
+    float: left;
+}
+
+.otziv{
+	text-align: center;
+}
+.otziv hr{
+	opacity: 1;
+	display: block;
+	margin: 10px auto;
+    border: none;
+}
+.otziv h2{
+	font-size: 25px;
+    color: #263244;
+    font-weight:700;
+    margin: 80px auto 20px auto;
+}
+.otziv p{
+	margin: 50px 0 50px 0;
+}
+
+.contacts{
+	height: 460px;
+    width: 100%;
+	color: #fff;
+	background-image: url(../img/1.png);
+    background-size: 100%;
+	text-align: center;
+	
+}
+.contacts hr{
+    opacity: 1;
+	display: block;
+	margin: 5px auto;
+    border: none;
+    width: 80px;
+    margin-bottom: 30px;
+}
+.contacts h2{
+	font-size: 25px;
+    font-weight:700;
+    padding-top: 35px;
+    margin-bottom: 25px;
+}
+.contacts h3{
+	margin-bottom:30px;
+    font-family:calibri;
+    font-size: 13px;
+}
+.contacts p{
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+
+.cont_blok{
+    text-align: center;
+    font-family: calibri;
+    font-size: 13px;
+}
+.cont_blok p{
+    font-family: calibri;
+    font-size: 13px;
+}
+.PITER p{
+	text-align: center;
+	font-family: calibri;
+    font-size: 13px;
+}
+.mail{
+	text-align: center;
+}
+.tell{
+	text-align: center;
+}
+.call_my{
+	margin-top: 170px;
+}
+.call_my p{
+	margin-top: 40px;
+	text-align: center;
+	font-size: 25px;
+}
+.call_inp{
+	width: 50%;
+	height: 210px;
+	margin: -30px auto;
+}
+.call_name{
+	float: left;
+    
+}
+.call_name input{
+	font-size: 25px;
+    background: #d2d5dc;
+}
+.call_email{
+	float: right;
+}
+.call_email input{
+	font-size: 25px;
+    background: #d2d5dc;
+}
+.call_com textarea{
+	font-size: 25px;
+    background: #d2d5dc;
+    width: 100%;
+}
+.ent{
+	margin-top: -35px;
+	margin-bottom: 20px;
+}
+.ent button{
+	font-size: 25px;
+	text-align: center;
+	border: 1px solid #eee;
+	border-radius: 5px;
+	background: none;
+	color: #eee;
+}
+.SOTS_SETI {
+    width: 40%;
+	margin: 80px auto 0 auto;
+    height: 28px;
+}
+.FASEBOOK{
+    float: left;
+    margin: 2px 0 0 23%;
+}
+.TWITER{
+	float: left;
+    margin: 5px 0 0 46px;
+}
+.BOOL{
+    float: left;
+    margin: 3px 0 0 45px;
+}
+.GITHUB{
+	float: left;
+    margin: 3px 0 0 43px;
+}
+.INSTAGRAM{
+	float: left;
+    margin: 3px 0 0 44px;
+}
+.IN{
+	float: left;
+    margin: 4px 0 0 44px;
+}
+footer{
+    width: 100%;
+    height: 460spx;
+    background-image: url(../img/fotter.png);
+}
+footer p{
+    height: 50px;
+    text-align: center;
+    color: #fff;
+    margin-top: 20px;
+    
+}
